@@ -12,6 +12,7 @@
 		DF1F6D391EA70EC8000E66A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1F6D371EA70EC8000E66A2 /* Main.storyboard */; };
 		DF1F6D3B1EA70EC8000E66A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1F6D3A1EA70EC8000E66A2 /* Assets.xcassets */; };
 		DF1F6D3E1EA70EC8000E66A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1F6D3C1EA70EC8000E66A2 /* LaunchScreen.storyboard */; };
+		DF40E0A31EA7987F00851D6A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF1F6D3F1EA70EC8000E66A2 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +124,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF40E0A31EA7987F00851D6A /* Info.plist in Resources */,
 				DF1F6D3E1EA70EC8000E66A2 /* LaunchScreen.storyboard in Resources */,
 				DF1F6D3B1EA70EC8000E66A2 /* Assets.xcassets in Resources */,
 				DF1F6D391EA70EC8000E66A2 /* Main.storyboard in Resources */,
@@ -301,6 +303,7 @@
 				DF1F6D441EA70EC8000E66A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
