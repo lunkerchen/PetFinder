@@ -8,6 +8,9 @@
 
 import UIKit
 import AlamofireNetworkActivityIndicator
+import GoogleMaps
+import ChameleonFramework
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,9 +20,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
+        UIApplication.shared.statusBarStyle = .lightContent
+        UINavigationBar.appearance().barTintColor = UIColor.flatSkyBlueDark
+        UINavigationBar.appearance().tintColor = FlatWhite()
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : FlatWhite()]
         NetworkActivityIndicatorManager.shared.isEnabled = true
         NetworkActivityIndicatorManager.shared.startDelay = 0
+        
+        // Google Maps API Key
+        GMSServices.provideAPIKey("AIzaSyDxmQXIF0VBgSFSqx4z9hJfIh9ibnm_0P4")
+        
+        
         
         return true
     }

@@ -10,4 +10,9 @@ import UIKit
 
 class PetCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var thumbImageView: UIImageView!
+    @IBOutlet weak var animalPlaceLabel: UILabel!
+    @IBOutlet weak var animalTypeLabel: UILabel!
+    @IBOutlet weak var animalSexLabel: UILabel!
+    
 }
